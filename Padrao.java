@@ -20,7 +20,7 @@ public class Padrao {
             String vec[] = leitura.split(" ");
             tipos.add(Integer.parseInt(vec[0])); //na primeira coluna da linha tem o tipo do padrão 
             for (int j = 0; j < colunas; j++) {//preenchendo as colunas do vetor padrão
-                padroes[i][j] = Double.parseDouble(vec[j+1]);
+                padroes[i][j] = Double.parseDouble(vec[j + 1]);
             }
         }
     }

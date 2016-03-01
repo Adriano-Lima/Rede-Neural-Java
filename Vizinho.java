@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 
 public class Vizinho {
@@ -150,27 +149,27 @@ public class Vizinho {
         return retorno;
     }
 
-    public Double[][] formatos_vizinhanca(Rede neu, Double vetorespadrao[], int i, int j, int OP) {
-        Double X[][] = null;
+    public Double[][] formatos_vizinhanca(Double X[][], Double neu[][][], Double vetorespadrao[], int i, int j, Parametros pa) {
         int cont = 0, cont2 = 0;
         ArrayList<Vizinho> V = null;
 
-        V = vizinhanca(neu.linhas, neu.colunas, i, j, OP);
+        V = vizinhanca(pa.r, pa.s, i, j, pa.OP);
         cont = V.size();
         cont++; // para incluir o padrao sendo aprendido
-        X = new Double[cont][neu.dimensoes];
+        X = new Double[cont][pa.d];
 
         //preenchendo a matriz X
         for (int l = 0; l < (cont - 1); l++) {
-            for (int di = 0; di < neu.dimensoes; di++) {
-                X[cont2][di] = neu.rede[V.get(l).linha][V.get(l).coluna][di];
+            for (int di = 0; di < pa.d; di++) {
+                X[cont2][di] = neu[V.get(l).linha][V.get(l).coluna][di];
             }
             cont2++;
         }
 
-        for (int di = 0; di < neu.dimensoes; di++) {
+        for (int di = 0; di < pa.d; di++) {
             X[cont - 1][di] = vetorespadrao[di]; //preechendo a ultima posicao da matriz X com o vetor padrao
         }
+        pa.cont = cont;
         return X;
     }
 

@@ -24,9 +24,9 @@ public class Sammon {
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 if (i < j) {
-                    if (d_ast[i][j] < 1e-12 && d_ast[i][j] > -1e-12) {
-                        System.err.printf("d_ast[%d][%d] == %f\n", i, j, d_ast[i][j]);
-                        System.err.printf("ERRO: dois padroes de entrada sao iguais\n");
+                    if (d_ast[i][j] < 1e-12 && d_ast[i][j]> -1e-12) {
+                        //System.err.printf("d_ast[%d][%d] == %f\n", i, j, d_ast[i][j]);
+                        //System.err.printf("ERRO: dois padroes de entrada sao iguais\n");
                         continue;
                     } else {
                         soma += Math.pow(d_ast[i][j] - d[i][j], 2.0) / d_ast[i][j];
@@ -47,7 +47,7 @@ public class Sammon {
         double soma = 0.0, termo1 = 0.0, termo2 = 0.0;
         for (int j = 0; j < N; j++) {
             if (j != p) {
-                termo1 = (d_ast[p][j] - d[p][j]) / (d[p][j] * d_ast[p][j]);
+                termo1 = ((d_ast[p][j] - d[p][j]) / (d[p][j] * d_ast[p][j]));
 
                 //printf("termo1 == %f\n", termo1);
                 termo2 = Y[p][q] - Y[j][q];
@@ -122,15 +122,12 @@ public class Sammon {
         c = calcular_c(d_ast, N);
 
         while (m++ < MAX_ITERACOES && (Math.abs(E_m1 - E_m) / (E_m1 > E_m ? E_m1 : E_m) > EPSILON)) {
-            //printf("#E_%d == %f, fracE_%d == %f \n", m, E_m, m, (fabs(E_m1 -E_m)/(E_m1>E_m?E_m1:E_m)));
             E_m1 = E_m;
             calculo.calcular_d(Y, d, N, D);
             for (int p = 0; p < N; p++) {			//p in N
                 for (int q = 0; q < D; q++) {			//q in D
                     delta_pq = calcular_delta_pq(d_ast, d, Y, c, p, q, N);
-                    //printf("deltapq:%f\n rodada:%d",delta_pq,m);
                     Y[p][q] += -MF * delta_pq;
-                    //printf("Y[%d][%d]:%f rodada:%d\n",p,q,Y[p][q],m);
                 }
             }
 

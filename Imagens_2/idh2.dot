@@ -1,0 +1,271 @@
+//ErroQ:257,777063 MedidaF:0,528716 ErroT:0,316384
+ /* -- Parâmetros --
+Viz:6
+r:10
+s:12
+quantIteracoes:1000
+seed:1456315574692
+Arquivo de cores:idh2010.cores */
+graph {
+node [style=filled, fontcolor=black,fontsize=20];
+rankdir="BT";
+
+"0,0"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,80 \n Países:Qatar",color="0.803 1 0.989 "];
+"0,1"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,89 \n Países:Liechtenstein",color="0.891 1 0.989 "];
+"0,2"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,94 \n Países:Norway",color="0.938 1 0.989 "];
+"0,3"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,90 \n Países:United States",color="0.902 1 0.989 "];
+"0,4"[fontsize=8,label="(0,0,0,0,1,0)\n Média IDH:0,84 \n Países:Non-OECD",color="0.844 1 0.989 "];
+"0,5"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,87 \n Países:Switzerland",color="0.874 1 0.989 "];
+"0,6"[fontsize=8,label="(1,0,0,0,1,0)\n Média IDH:0,87 \n Países:Denmark,\n OECD",color="0.873 1 0.978 "];
+"0,7"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"0,8"[fontsize=8,label="(2,0,0,0,0,0)\n Média IDH:0,79 \n Países:Barados,\n Portugal",color="0.792 1 0.978 "];
+"0,9"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,77 \n Países:Croatia",color="0.767 1 0.989 "];
+"0,10"[fontsize=8,label="(0,0,0,0,0,1)\n Média IDH:0,70 \n Países:Latin America and the Cariean",color="0.704 1 0.989 "];
+"0,11"[fontsize=8,label="(0,0,1,0,0,1)\n Média IDH:0,65 \n Países:El Salvador,\n East Asia and the Pacific",color="0.651 1 0.978 "];
+"1,0"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,82 \n Países:United Ara Emirates",color="0.815 1 0.989 "];
+"1,1"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"1,2"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"1,3"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"1,4"[fontsize=8,label="(2,0,0,0,0,0)\n Média IDH:0,89 \n Países:Canada,\n Netherlands",color="0.889 1 0.978 "];
+"1,5"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"1,6"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,87 \n Países:Belgium",color="0.867 1 0.989 "];
+"1,7"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,85 \n Países:Italy",color="0.854 1 0.989 "];
+"1,8"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"1,9"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,75 \n Países:Mexico",color="0.75 1 0.989 "];
+"1,10"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,70 \n Países:The former Yugoslav Repulic of Macedonia",color="0.701 1 0.989 "];
+"1,11"[fontsize=8,label="(0,2,0,0,0,0)\n Média IDH:0,69 \n Países:Colomia,\n Tunisia",color="0.686 1 0.978 "];
+"2,0"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,77 \n Países:Kuwait",color="0.771 1 0.989 "];
+"2,1"[fontsize=8,label="(2,0,0,0,0,0)\n Média IDH:0,85 \n Países:Singapore,\n Luxemourg",color="0.849 1 0.978 "];
+"2,2"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,86 \n Países:Hong Kong,China (SAR)",color="0.862 1 0.989 "];
+"2,3"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,94 \n Países:Australia",color="0.937 1 0.989 "];
+"2,4"[fontsize=8,label="(2,0,0,0,0,0)\n Média IDH:0,87 \n Países:Austria,\n Sweden",color="0.868 1 0.978 "];
+"2,5"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,85 \n Países:United Kingdom",color="0.849 1 0.989 "];
+"2,6"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,86 \n Países:Spain",color="0.863 1 0.989 "];
+"2,7"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,83 \n Países:Slovenia",color="0.828 1 0.989 "];
+"2,8"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,80 \n Países:Poland",color="0.795 1 0.989 "];
+"2,9"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,77 \n Países:Uruguay",color="0.765 1 0.989 "];
+"2,10"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,74 \n Países:Malaysia",color="0.744 1 0.989 "];
+"2,11"[fontsize=8,label="(0,2,0,0,0,0)\n Média IDH:0,70 \n Países:Iran,Islamic Repulic of,\n Brazil",color="0.7 1 0.978 "];
+"3,0"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,81 \n Países:Brunei Darussalam",color="0.805 1 0.989 "];
+"3,1"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"3,2"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,82 \n Países:Andorra",color="0.824 1 0.989 "];
+"3,3"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,88 \n Países:Japan",color="0.884 1 0.989 "];
+"3,4"[fontsize=8,label="(3,0,0,0,0,0)\n Média IDH:0,88 \n Países:Finland,\n Germany,\n France",color="0.876 1 0.966 "];
+"3,5"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"3,6"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,86 \n Países:Greece",color="0.855 1 0.989 "];
+"3,7"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,81 \n Países:Cyprus",color="0.81 1 0.989 "];
+"3,8"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,76 \n Países:Liyan Ara Jamahiriya",color="0.755 1 0.989 "];
+"3,9"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,76 \n Países:Panama",color="0.755 1 0.989 "];
+"3,10"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"3,11"[fontsize=8,label="(0,1,0,0,0,1)\n Média IDH:0,72 \n Países:Europe and Central Asia,\n Belarus",color="0.717 1 0.978 "];
+"4,0"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"4,1"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,90 \n Países:Ireland",color="0.895 1 0.989 "];
+"4,2"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,88 \n Países:Korea,Repulic of",color="0.877 1 0.989 "];
+"4,3"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,87 \n Países:Israel",color="0.872 1 0.989 "];
+"4,4"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"4,5"[fontsize=8,label="(1,1,0,0,0,0)\n Média IDH:0,79 \n Países:Bahamas,\n Bahrain",color="0.792 1 0.978 "];
+"4,6"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"4,7"[fontsize=8,label="(0,2,0,0,0,0)\n Média IDH:0,78 \n Países:Lithuania,\n Argentina",color="0.779 1 0.978 "];
+"4,8"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"4,9"[fontsize=8,label="(0,0,1,0,0,0)\n Média IDH:0,66 \n Países:China",color="0.663 1 0.989 "];
+"4,10"[fontsize=8,label="(0,0,0,0,0,1)\n Média IDH:0,59 \n Países:Ara States",color="0.588 1 0.989 "];
+"4,11"[fontsize=8,label="(0,1,1,0,0,0)\n Média IDH:0,69 \n Países:Turkmenistan,\n Kazakhstan",color="0.692 1 0.978 "];
+"5,0"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,91 \n Países:New Zealand",color="0.907 1 0.989 "];
+"5,1"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,87 \n Países:Iceland",color="0.869 1 0.989 "];
+"5,2"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"5,3"[fontsize=8,label="(2,0,0,0,0,0)\n Média IDH:0,83 \n Países:Slovakia,\n Czech Repulic",color="0.829 1 0.978 "];
+"5,4"[fontsize=8,label="(1,0,0,0,0,0)\n Média IDH:0,82 \n Países:Malta",color="0.815 1 0.989 "];
+"5,5"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"5,6"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,73 \n Países:Costa Rica",color="0.725 1 0.989 "];
+"5,7"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,71 \n Países:Azeraijan",color="0.713 1 0.989 "];
+"5,8"[fontsize=8,label="(0,2,0,0,0,0)\n Média IDH:0,68 \n Países:Jamaica,\n Algeria",color="0.682 1 0.978 "];
+"5,9"[fontsize=8,label="(0,0,3,0,0,0)\n Média IDH:0,58 \n Países:Indonesia,\n Cape Verde,\n Honduras",color="0.579 1 0.966 "];
+"5,10"[fontsize=8,label="(0,0,2,0,0,0)\n Média IDH:0,49 \n Países:Lao People’s Democratic Repulic,\n Pakistan",color="0.493 1 0.978 "];
+"5,11"[fontsize=8,label="(0,0,0,0,0,1)\n Média IDH:0,52 \n Países:South Asia",color="0.516 1 0.989 "];
+"6,0"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"6,1"[fontsize=8,label="(0,2,0,0,0,0)\n Média IDH:0,74 \n Países:Trinidad and Toago,\n Saudi Araia",color="0.744 1 0.978 "];
+"6,2"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"6,3"[fontsize=8,label="(2,0,0,0,0,0)\n Média IDH:0,81 \n Países:Hungary,\n Estonia",color="0.808 1 0.978 "];
+"6,4"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,78 \n Países:Chile",color="0.783 1 0.989 "];
+"6,5"[fontsize=8,label="(0,3,0,0,0,0)\n Média IDH:0,72 \n Países:Bulgaria,\n Venezuela,Bolivarian Repulic of,\n Seria",color="0.725 1 0.966 "];
+"6,6"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,70 \n Países:Ecuador",color="0.695 1 0.989 "];
+"6,7"[fontsize=8,label="(0,0,2,0,0,0)\n Média IDH:0,66 \n Países:Thailand,\n Dominican Repulic",color="0.659 1 0.978 "];
+"6,8"[fontsize=8,label="(0,0,2,0,0,0)\n Média IDH:0,63 \n Países:Suriname,\n Egypt",color="0.633 1 0.978 "];
+"6,9"[fontsize=8,label="(0,0,3,0,0,0)\n Média IDH:0,50 \n Países:India,\n São Tomé and Príncipe,\n Solomon Islands",color="0.5 1 0.966 "];
+"6,10"[fontsize=8,label="(0,0,0,1,0,0)\n Média IDH:0,30 \n Países:Lieria",color="0.3 1 0.989 "];
+"6,11"[fontsize=8,label="(0,0,0,3,0,0)\n Média IDH:0,36 \n Países:Ethiopia,\n Tanzania,United Repulic of,\n Guinea",color="0.355 1 0.966 "];
+"7,0"[fontsize=8,label="(0,0,1,0,0,0)\n Média IDH:0,65 \n Países:Gaon",color="0.648 1 0.989 "];
+"7,1"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,68 \n Países:Turkey",color="0.679 1 0.989 "];
+"7,2"[fontsize=8,label="(0,0,1,0,0,0)\n Média IDH:0,50 \n Países:Timor-Leste",color="0.502 1 0.989 "];
+"7,3"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,72 \n Países:Russian Federation",color="0.719 1 0.989 "];
+"7,4"[fontsize=8,label="(0,4,0,0,0,0)\n Média IDH:0,75 \n Países:Mauritius,\n Latvia,\n Romania",color="0.752 1 0.955 "];
+"7,5"[fontsize=8,label="(0,2,0,0,0,0)\n Média IDH:0,72 \n Países:Peru,\n Bosnia and Herzegovina",color="0.716 1 0.978 "];
+"7,6"[fontsize=8,label="(0,1,2,0,0,0)\n Média IDH:0,66 \n Países:Paraguay,\n Jordan,\n Sri Lanka",color="0.66 1 0.966 "];
+"7,7"[fontsize=8,label="(0,0,3,0,0,0)\n Média IDH:0,58 \n Países:Nicaragua,\n Syrian Ara Repulic,\n Viet Nam",color="0.575 1 0.966 "];
+"7,8"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"7,9"[fontsize=8,label="(0,0,0,3,0,0)\n Média IDH:0,44 \n Países:Benin,\n Myanmar,\n Yemen",color="0.442 1 0.966 "];
+"7,10"[fontsize=8,label="(0,0,0,5,0,0)\n Média IDH:0,41 \n Países:Uganda,\n Malawi,\n Senegal",color="0.408 1 0.944 "];
+"7,11"[fontsize=8,label="(0,0,0,3,0,1)\n Média IDH:0,38 \n Países:Rwanda,\n Burundi,\n Cameroon",color="0.379 1 0.955 "];
+"8,0"[fontsize=8,label="(0,0,0,1,0,0)\n Média IDH:0,40 \n Países:Angola",color="0.403 1 0.989 "];
+"8,1"[fontsize=8,label="(0,0,1,1,0,0)\n Média IDH:0,45 \n Países:Swaziland,\n Djiouti",color="0.45 1 0.978 "];
+"8,2"[fontsize=8,label="(0,0,0,3,0,0)\n Média IDH:0,41 \n Países:Sudan,\n Madagascar,\n Togo",color="0.414 1 0.966 "];
+"8,3"[fontsize=8,label="(0,0,1,0,0,0)\n Média IDH:0,58 \n Países:Tajikistan",color="0.58 1 0.989 "];
+"8,4"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"8,5"[fontsize=8,label="(0,1,0,0,0,0)\n Média IDH:0,69 \n Países:Belize",color="0.694 1 0.989 "];
+"8,6"[fontsize=8,label="(0,0,1,0,0,0)\n Média IDH:0,64 \n Países:Philippines",color="0.638 1 0.989 "];
+"8,7"[fontsize=8,label="(0,0,3,0,0,0)\n Média IDH:0,58 \n Países:Guatemala,\n Morocco,\n Maldives",color="0.576 1 0.966 "];
+"8,8"[fontsize=8,label="(0,0,0,3,0,0)\n Média IDH:0,44 \n Países:Comoros,\n Bangladesh,\n Nepal",color="0.442 1 0.966 "];
+"8,9"[fontsize=8,label="(0,0,0,3,0,0)\n Média IDH:0,41 \n Países:Côte d’Ivoire,\n Papua New Guinea,\n Haiti",color="0.411 1 0.966 "];
+"8,10"[fontsize=8,label="(0,0,0,1,0,0)\n Média IDH:0,26 \n Países:Niger",color="0.261 1 0.989 "];
+"8,11"[fontsize=8,label="(0,0,0,3,0,0)\n Média IDH:0,22 \n Países:Zimawe,\n Congo,Democratic Repulic of the,\n Guinea-Bissau",color="0.223 1 0.966 "];
+"9,0"[fontsize=8,label="(0,0,1,0,0,0)\n Média IDH:0,54 \n Países:Equatorial Guinea",color="0.538 1 0.989 "];
+"9,1"[fontsize=8,label="(0,0,2,0,0,0)\n Média IDH:0,62 \n Países:South Africa,\n Botswana",color="0.615 1 0.978 "];
+"9,2"[fontsize=8,label="(0,0,0,0,0,0)",fillcolor="0 0 100 "];
+"9,3"[fontsize=8,label="(0,0,3,0,0,0)\n Média IDH:0,61 \n Países:Uzekistan,\n Kyrgyzstan,\n Moldova,Repulic of",color="0.613 1 0.966 "];
+"9,4"[fontsize=8,label="(0,3,1,0,0,0)\n Média IDH:0,69 \n Países:Ukraine,\n Fiji,\n Tonga",color="0.689 1 0.955 "];
+"9,5"[fontsize=8,label="(0,2,0,0,0,0)\n Média IDH:0,71 \n Países:Armenia,\n Alania",color="0.707 1 0.978 "];
+"9,6"[fontsize=8,label="(0,0,1,0,0,0)\n Média IDH:0,61 \n Países:Micronesia,Federated States of",color="0.614 1 0.989 "];
+"9,7"[fontsize=8,label="(0,0,3,0,0,0)\n Média IDH:0,63 \n Países:Bolivia,Plurinational State of,\n Mongolia,\n Guyana",color="0.625 1 0.966 "];
+"9,8"[fontsize=8,label="(0,0,2,0,0,0)\n Média IDH:0,55 \n Países:Camodia,\n Namiia",color="0.55 1 0.978 "];
+"9,9"[fontsize=8,label="(0,0,1,3,0,0)\n Média IDH:0,43 \n Países:Burkina Faso,\n Congo,\n Kenya",color="0.433 1 0.955 "];
+"9,10"[fontsize=8,label="(0,0,0,3,0,0)\n Média IDH:0,40 \n Países:Afghanistan,\n Lesotho,\n Nigeria",color="0.4 1 0.966 "];
+"9,11"[fontsize=8,label="(0,0,0,6,0,0)\n Média IDH:0,32 \n Países:Central African Repulic,\n Zamia,\n Sierra Leone",color="0.319 1 0.933 "];
+
+"0,0"  -- {"1,0" ; "0,1" ; "1,1" };
+"0,1"  -- {"1,1" ; "0,2" ; };
+"0,2"  -- {"1,2" ; "0,3" ; "1,1" ; "1,3" ; };
+"0,3"  -- {"1,3" ; "0,4" ; };
+"0,4"  -- {"1,4" ; "0,5" ; "1,3" ; "1,5" ; };
+"0,5"  -- {"1,5" ; "0,6" ; };
+"0,6"  -- {"1,6" ; "0,7" ; "1,5" ; "1,7" ; };
+"0,7"  -- {"1,7" ; "0,8" ; };
+"0,8"  -- {"1,8" ; "0,9" ; "1,7" ; "1,9" ; };
+"0,9"  -- {"1,9" ; "0,10" ; };
+"0,10"  -- {"1,10" ; "0,11" ; "1,9" ; "1,11" ; };
+"0,11"  -- {"1,11" ; };
+"1,0"  -- {"2,0" ; "1,1" ; "2,1" ; };
+"1,1"  -- {"2,1" ; "1,2" ; };
+"1,2"  -- {"2,2" ; "1,3" ; "2,1" ; "2,3" ; };
+"1,3"  -- {"2,3" ; "1,4" ; };
+"1,4"  -- {"2,4" ; "1,5" ; "2,3" ; "2,5" ; };
+"1,5"  -- {"2,5" ; "1,6" ; };
+"1,6"  -- {"2,6" ; "1,7" ; "2,5" ; "2,7" ; };
+"1,7"  -- {"2,7" ; "1,8" ; };
+"1,8"  -- {"2,8" ; "1,9" ; "2,7" ; "2,9" ; };
+"1,9"  -- {"2,9" ; "1,10" ; };
+"1,10"  -- {"2,10" ; "1,11" ; "2,9" ; "2,11" ; };
+"1,11"  -- {"2,11" ; };
+"2,0"  -- {"3,0" ; "2,1" ; "3,1" ; };
+"2,1"  -- {"3,1" ; "2,2" ; };
+"2,2"  -- {"3,2" ; "2,3" ; "3,1" ; "3,3" ; };
+"2,3"  -- {"3,3" ; "2,4" ; };
+"2,4"  -- {"3,4" ; "2,5" ; "3,3" ; "3,5" ; };
+"2,5"  -- {"3,5" ; "2,6" ; };
+"2,6"  -- {"3,6" ; "2,7" ; "3,5" ; "3,7" ; };
+"2,7"  -- {"3,7" ; "2,8" ; };
+"2,8"  -- {"3,8" ; "2,9" ; "3,7" ; "3,9" ; };
+"2,9"  -- {"3,9" ; "2,10" ; };
+"2,10"  -- {"3,10" ; "2,11" ; "3,9" ; "3,11" ; };
+"2,11"  -- {"3,11" ; };
+"3,0"  -- {"4,0" ; "3,1" ; "4,1" ; };
+"3,1"  -- {"4,1" ; "3,2" ; };
+"3,2"  -- {"4,2" ; "3,3" ; "4,1" ; "4,3" ; };
+"3,3"  -- {"4,3" ; "3,4" ; };
+"3,4"  -- {"4,4" ; "3,5" ; "4,3" ; "4,5" ; };
+"3,5"  -- {"4,5" ; "3,6" ; };
+"3,6"  -- {"4,6" ; "3,7" ; "4,5" ; "4,7" ; };
+"3,7"  -- {"4,7" ; "3,8" ; };
+"3,8"  -- {"4,8" ; "3,9" ; "4,7" ; "4,9" ; };
+"3,9"  -- {"4,9" ; "3,10" ; };
+"3,10"  -- {"4,10" ; "3,11" ; "4,9" ; "4,11" ; };
+"3,11"  -- {"4,11" ; };
+"4,0"  -- {"5,0" ; "4,1" ; "5,1" ; };
+"4,1"  -- {"5,1" ; "4,2" ; };
+"4,2"  -- {"5,2" ; "4,3" ; "5,1" ; "5,3" ; };
+"4,3"  -- {"5,3" ; "4,4" ; };
+"4,4"  -- {"5,4" ; "4,5" ; "5,3" ; "5,5" ; };
+"4,5"  -- {"5,5" ; "4,6" ; };
+"4,6"  -- {"5,6" ; "4,7" ; "5,5" ; "5,7" ; };
+"4,7"  -- {"5,7" ; "4,8" ; };
+"4,8"  -- {"5,8" ; "4,9" ; "5,7" ; "5,9" ; };
+"4,9"  -- {"5,9" ; "4,10" ; };
+"4,10"  -- {"5,10" ; "4,11" ; "5,9" ; "5,11" ; };
+"4,11"  -- {"5,11" ; };
+"5,0"  -- {"6,0" ; "5,1" ; "6,1" ; };
+"5,1"  -- {"6,1" ; "5,2" ; };
+"5,2"  -- {"6,2" ; "5,3" ; "6,1" ; "6,3" ; };
+"5,3"  -- {"6,3" ; "5,4" ; };
+"5,4"  -- {"6,4" ; "5,5" ; "6,3" ; "6,5" ; };
+"5,5"  -- {"6,5" ; "5,6" ; };
+"5,6"  -- {"6,6" ; "5,7" ; "6,5" ; "6,7" ; };
+"5,7"  -- {"6,7" ; "5,8" ; };
+"5,8"  -- {"6,8" ; "5,9" ; "6,7" ; "6,9" ; };
+"5,9"  -- {"6,9" ; "5,10" ; };
+"5,10"  -- {"6,10" ; "5,11" ; "6,9" ; "6,11" ; };
+"5,11"  -- {"6,11" ; };
+"6,0"  -- {"7,0" ; "6,1" ; "7,1" ; };
+"6,1"  -- {"7,1" ; "6,2" ; };
+"6,2"  -- {"7,2" ; "6,3" ; "7,1" ; "7,3" ; };
+"6,3"  -- {"7,3" ; "6,4" ; };
+"6,4"  -- {"7,4" ; "6,5" ; "7,3" ; "7,5" ; };
+"6,5"  -- {"7,5" ; "6,6" ; };
+"6,6"  -- {"7,6" ; "6,7" ; "7,5" ; "7,7" ; };
+"6,7"  -- {"7,7" ; "6,8" ; };
+"6,8"  -- {"7,8" ; "6,9" ; "7,7" ; "7,9" ; };
+"6,9"  -- {"7,9" ; "6,10" ; };
+"6,10"  -- {"7,10" ; "6,11" ; "7,9" ; "7,11" ; };
+"6,11"  -- {"7,11" ; };
+"7,0"  -- {"8,0" ; "7,1" ; "8,1" ; };
+"7,1"  -- {"8,1" ; "7,2" ; };
+"7,2"  -- {"8,2" ; "7,3" ; "8,1" ; "8,3" ; };
+"7,3"  -- {"8,3" ; "7,4" ; };
+"7,4"  -- {"8,4" ; "7,5" ; "8,3" ; "8,5" ; };
+"7,5"  -- {"8,5" ; "7,6" ; };
+"7,6"  -- {"8,6" ; "7,7" ; "8,5" ; "8,7" ; };
+"7,7"  -- {"8,7" ; "7,8" ; };
+"7,8"  -- {"8,8" ; "7,9" ; "8,7" ; "8,9" ; };
+"7,9"  -- {"8,9" ; "7,10" ; };
+"7,10"  -- {"8,10" ; "7,11" ; "8,9" ; "8,11" ; };
+"7,11"  -- {"8,11" ; };
+"8,0"  -- {"9,0" ; "8,1" ; "9,1" ; };
+"8,1"  -- {"9,1" ; "8,2" ; };
+"8,2"  -- {"9,2" ; "8,3" ; "9,1" ; "9,3" ; };
+"8,3"  -- {"9,3" ; "8,4" ; };
+"8,4"  -- {"9,4" ; "8,5" ; "9,3" ; "9,5" ; };
+"8,5"  -- {"9,5" ; "8,6" ; };
+"8,6"  -- {"9,6" ; "8,7" ; "9,5" ; "9,7" ; };
+"8,7"  -- {"9,7" ; "8,8" ; };
+"8,8"  -- {"9,8" ; "8,9" ; "9,7" ; "9,9" ; };
+"8,9"  -- {"9,9" ; "8,10" ; };
+"8,10"  -- {"9,10" ; "8,11" ; "9,9" ; "9,11" ; };
+"8,11"  -- {"9,11" ; };
+"9,0"  -- {"9,1" ; };
+"9,1"  -- {"9,2" ; };
+"9,2"  -- {"9,3" ; };
+"9,3"  -- {"9,4" ; };
+"9,4"  -- {"9,5" ; };
+"9,5"  -- {"9,6" ; };
+"9,6"  -- {"9,7" ; };
+"9,7"  -- {"9,8" ; };
+"9,8"  -- {"9,9" ; };
+"9,9"  -- {"9,10" ; };
+"9,10"  -- {"9,11" ; };
+
+//ErroQ:257,777063 MedidaF:0,528716 ErroT:0,316384
+subgraph cluster_1 { 
+	label="";
+	{ rank = sink;
+	 Legend [shape=none, margin=0, label=<	
+	<TABLE ALIGN="LEFT" BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+	<TR>	
+	<TD>Erro Topológico: 0.31</TD>
+	</TR>
+	<TR>
+	<TD>Erro de Quantização: 257.77</TD>
+	</TR>
+	</TABLE>
+	>];
+	}
+}
+
+}
